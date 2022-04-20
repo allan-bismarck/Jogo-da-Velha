@@ -1,78 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'JandaManateeSolid';
+    src: url(fonts/JandaManateeSolid.ttf);
+}
+
+body {
+    background-color: #DCE6F2;
+}
+
+#menu {
+    padding: 2vw;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button, #startPlayer {
+    margin: 1vw;
+}
+
+#startPlayer {
+    font-family: JandaManateeSolid;
+    font-size: 3vw;
+    color: #9904D9;
+
+}
+
+button {
+    padding: 15px;
+    border: none;
+    background-color: #1E0D8C;
+    color: white;
+    font-size: 2vw;
+    border-radius: 0.5vw;
+}
+
+button:hover {
+    background-color: #9904D9;
+    cursor: pointer;
+}
+
 #game {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    padding: 1vw;
+    margin: 0px auto;
 }
 
 .posGame {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin: 0px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-family: JandaManateeSolid;
+    font-size: 4vw;
+    background-color: #DCE6F2;
+    color: #1E0D8C;
 }
 
 #p1 {
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-right: 4px solid #9904D9;
+    border-bottom: 4px solid #9904D9;
 }
 
 #p2 {
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-    margin-left: 2px;
+    border-left: 4px solid #9904D9;
+    border-right: 4px solid #9904D9;
+    border-bottom: 4px solid #9904D9;
 }
 
 #p3 {
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    margin-left: 2px;
+    border-left: 4px solid #9904D9;
+    border-bottom: 4px solid #9904D9;
 }
 
 #p4 {
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-    margin-top: -2px;
+    border-top: 4px solid #9904D9;
+    border-right: 4px solid #9904D9;
+    border-bottom: 4px solid #9904D9;
+    margin-top: -8px;
 }
 
 #p5 {
-    border: 1px solid #000;
-    margin-top: -2px;
-    margin-left: 2px;
+    border: 4px solid #9904D9;
+    margin-top: -8px;
 }
 
 #p6 {
-    border-left: 1px solid #000;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    margin-top: -2px;
-    margin-left: 2px;
+    border-left: 4px solid #9904D9;
+    border-top: 4px solid #9904D9;
+    border-bottom: 4px solid #9904D9;
+    margin-top: -8px;
 }
 
 #p7 {
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    margin-top: -2px;
+    border-top: 4px solid #9904D9;
+    border-right: 4px solid #9904D9;
+    margin-top: -8px;
 }
 
 #p8 {
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    border-top: 1px solid #000;
-    margin-top: -2px;
-    margin-left: 2px;
+    border-left: 4px solid #9904D9;
+    border-right: 4px solid #9904D9;
+    border-top: 4px solid #9904D9;
+    margin-top: -8px;
 }
 
 #p9 {
-    border-left: 1px solid #000;
-    border-top: 1px solid #000;
-    margin-top: -2px;
-    margin-left: 2px;
+    border-left: 4px solid #9904D9;
+    border-top: 4px solid #9904D9;
+    margin-top: -8px;
 }
